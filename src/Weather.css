@@ -1,0 +1,90 @@
+.Weather {
+  border: 1px solid #dadde1;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: url(https://i.pinimg.com/564x/9b/cf/ee/9bcfeea355d221dacb910c5bdda26c25.jpg);
+  background-size: 400px 600px;
+  background-repeat: no-repeat;
+}
+
+.Weather form {
+  margin-bottom: 10px;
+  position: relative;
+}
+.Weather h1 {
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+.Weather ul {
+  padding: 0;
+  margin: 0;
+}
+
+.Weather li {
+  list-style: none;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 100;
+  margin: 0;
+}
+.Weather .WeatherInfo .cityIcon {
+  margin-right: 10px;
+  max-width: 300px;
+  position: relative;
+}
+
+.Weather .searchBox {
+  width: 250px;
+  height: 30px;
+  border-radius: 40px;
+  background: #f9f0da;
+  padding: 10px;
+}
+.Weather .iconSearch {
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-color: #f2bbac;
+  background: #f9f0da;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.Weather .formSearch {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding-right: 10px;
+  color: rgb(56, 52, 52);
+  font-size: 16px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 215px;
+}
+.Weather .temperature {
+  font-size: 45px;
+  line-break: 65px;
+  color: rgb(56, 52, 52);
+  font-weight: 600;
+  position: relative;
+}
+.Weather .celsuisUnit {
+  position: relative;
+  top: -45px;
+  color: rgb(56, 52, 52);
+  opacity: 0.8;
+  margin-left: 0;
+}
+.Weather .fahrenheitUnit {
+  position: relative;
+  top: -45px;
+  color: rgb(56, 52, 52);
+  opacity: 0.8;
+}

@@ -1,0 +1,9 @@
+.ForecastDaily {
+  color: rgb(56, 52, 52);
+}
+.ForecastDaily img {
+  width: 50px;
+}
+.ForecastDaily .weatherForecast-temperature-max {
+  font-weight: bold;
+}

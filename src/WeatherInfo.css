@@ -1,0 +1,34 @@
+.dateCitydescription {
+  padding-left: 20px;
+  border: black;
+  color: #fff;
+}
+.descriptionTemperatureIcon {
+  position: relative;
+}
+
+.descriptionTemperatureIcon:before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  border-radius: 20px;
+  background-color: #e6eee6;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+.weatherDescription {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin: 50px 0px;
+  padding-right: 10px;
+  border-radius: 20px;
+  color: black;
+  justify-content: space-between;
+  align-items: center;
+}
